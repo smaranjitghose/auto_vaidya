@@ -1,8 +1,8 @@
-# auto_vaidya
+<h1 align = "center">Auto Vaidya</h1>
 
 An open source solution for creating end-end web app for employing the power of deep learning in various clinical scenarios like implant detection, pneumonia detection, brain mri segmentation etc.
 
-# Tasks:
+<h2 align = "center">Tasks:</h2>
 
 ## Web App:
 
@@ -29,6 +29,8 @@ An open source solution for creating end-end web app for employing the power of 
 ## Machine Learning:(Artificial Intelligence)
 
 - [ ] RSNA Pneumonia Detection
+- [ ] Malarial Parasite Detection
+- [ ] Diabetic Retinopathy Detection
 
 ## Miscellaenous:
 
@@ -43,7 +45,10 @@ Note:
 - For facilitating folks of all skill level, the front is meant to be built using HTML,CSS and JavaScript
 - React development can be done in a parallel branch
 - Flask is preferred because of easy hosting and quick integration of models trained in TensorFlow/PyTorch
-- TensorFlow.JS development can also be donw in a parallel branch for client side sercing
+- TensorFlow.JS development can also be donw in a parallel branch for client side serving
 
-
-
+<h2 align="center"><b>Open Source Programs we have been a part of:</b></h2>
+<p align="center">
+<img width=30% src="assets/hakin_codes.png">&ensp;&ensp;&ensp;
+<img width=30% src="assets/psoc_logo.png">
+</p> 
