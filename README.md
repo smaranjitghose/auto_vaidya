@@ -49,6 +49,6 @@ Note:
 
 <h2 align="center"><b>Open Source Programs we have been a part of:</b></h2>
 <p align="center">
-<img width=30% src="assets/hakin_codes.png">&ensp;&ensp;&ensp;
-<img width=30% src="assets/psoc_logo.png">
+<img width=30% src="assets/images/hakin_codes.png">&ensp;&ensp;&ensp;
+<img width=30% src="assets/images/psoc_logo.png">
 </p> 

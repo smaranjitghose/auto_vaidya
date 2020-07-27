@@ -1,0 +1,123 @@
+body {
+	font-family: 'Inter', sans-serif;
+}
+.start-header-row {
+	min-height: 368px;
+	background: url("../../../Content/images/desk_illustration.html") no-repeat 328px 0;
+	background-size: auto 100%;
+	max-width: 1592px;
+	margin: 0 auto;
+}
+@media only screen and (max-width: 992px) {
+	.start-header-row {
+		background: none;
+	}
+}
+.start-splash-header-content {
+	padding-top: 60px;
+}
+@media only screen and (max-width: 992px) {
+	.start-splash-header-content {
+		padding-top: 30px;
+		text-align: center;
+	}
+}
+.start-splash-section {
+	overflow: hidden;
+	height: 400px;
+}
+@media only screen and (max-width: 992px) {
+	.start-splash-section {
+		height: inherit;
+		max-height: 600px;
+	}
+}
+.splash-image-container {
+	width: 100%;
+	max-width: 740px;
+	height: 720px;
+}
+@media only screen and (max-width: 992px) {
+	.splash-image-container {
+		margin-top: 0;
+		padding-top: 0px;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		max-width: initial;
+	}
+}
+.splash-image-kbremote {
+	height: 100%;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+.splash-image {
+	width: 100%;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+@media only screen and (max-width: 992px) {
+	.splash-image {
+		width: 100%;
+		max-width: 740px;
+		max-height: 100%;
+		margin-bottom: -44px;
+	}
+	.splash-image-kbremote {
+		width: 100%;
+		max-width: 740px;
+		max-height: 100%;
+		margin-bottom: -44px;
+	}
+}
+.start-splash-header-text {
+	font-size: 30px;
+	font-weight: 300;
+	overflow-x: hidden;
+}
+.start-feature-list {
+	margin-bottom: 16px;
+	padding-left: 16px;
+}
+.start-feature-list li {
+	margin: 14px 0;
+	padding: 0;
+	list-style: disc;
+	font-size: 14px;
+}
+h5.start {
+	padding-bottom: 20px;
+}
+.start-header-paragraph-text {
+	font-size: 18px;
+	line-height: 28px;
+	max-width: 440px;
+}
+@media only screen and (max-width: 992px) {
+	.start-header-paragraph-text {
+		text-align: center;
+		max-width: none;
+	}
+}
+.start-paragraph-text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.start-feature-heading {
+	font-size: 16px;
+	padding-left: 20px;
+	margin-bottom: 5px;
+}
+.about-text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
