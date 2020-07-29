@@ -156,3 +156,8 @@ p {
 	cursor: pointer;
 	width: 90%;
 }
+@media only screen and (max-width: 800px) {
+	.linkedin {
+		width: 60%;
+	}
+}
