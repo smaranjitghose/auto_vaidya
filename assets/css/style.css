@@ -121,3 +121,38 @@ h5.start {
 	font-weight: 400;
 	line-height: 28px;
 }
+.bodymovinanim {
+	width: 90%;
+	max-width: 50px;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+p {
+	font-size: 12px;
+	text-transform: uppercase;
+	opacity: 0.6;
+	letter-spacing: 2px;
+}
+
+.showmore {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	background-color: #1991eb;
+	padding: 16px 35px;
+	border-radius: 4px;
+	line-height: 26px;
+	text-align: center;
+}
+.bodymovinanim {
+	cursor: pointer;
+	width: 135%;
+}
+.linkedin {
+	cursor: pointer;
+	width: 135%;
+}
