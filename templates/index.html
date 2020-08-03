@@ -1,41 +1,6 @@
-<!DOCTYPE html>
-  <html>
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
-
-      <!--Let browser know website is optimized for mobile-->
-
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-
-    <body>
-         <!--Nav Bar-->
-        <nav class="black">
-            <div class="nav-wrapper container">
-              <a href="index.html" class="brand-logo">Auto Vadiya</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
-         <!--Nav Bar In mobile view-->
-          <ul class="sidenav" id="mobile-demo">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-           <!--title Banner Section-->
+ {% extends "layout.html" %}
+ {% block body %}
+ <!--title Banner Section-->
           <div class="section white no-pad-top">
             <div class="section black darken-1 no-pad-bot z-depth-1 start-splash-section">
               <div class="container start-splash-container">
@@ -53,7 +18,7 @@
                     </div>
                     <div class="col s12 l6">
                         <div class="splash-image-container">
-                            <img src="assets/images/3680924.svg" class="splash-image">
+                            <img src="{{url_for('static', filename = 'images/3680924.svg')}}" class="splash-image">
                         </div>
                     </div>
                   </div>
@@ -146,30 +111,30 @@
   </div>
 </center>
 </div>
-  <div id="contact" class="profile container"><h3 class="">Contact</h3> 
+  <div id="contact" class="profile container"><h3 class="">Get in Touch</h3> 
     <div class="row center">
       <div class="col s12 m4 offset-m1 image">
-        <img src="assets/images/smaranjitghose1.png" alt="my photo" class="responsive-img circle z-depth-4" width="200px"/>
+        <img src="{{url_for('static', filename = 'images/smaranjitghose1.png')}}" alt="Smaranjit Ghose picture" class="responsive-img circle z-depth-4" width="200px"/>
         <h4>Smaranjit Ghose</h4>
-        <h6 class= "grey-text">Life Long Learner</h6>
+        <h6 class= "grey-text">Machine Learning Developer</h6>
         <div class="col m3 offset-m1 s3 offset-s2"><a href="https://github.com/smaranjitghose"><div class="bodymovinanim"></div></a></div>
-        <div class="col m3 s3"><a href="https://www.linkedin.com/in/smaranjitghose/"><div class="linkedin"></div></a></div>
-        <div class="col m3 s3"><a href="https://www.patreon.com/smaranjitghose/"><img src="assets/images/Patreon-Logo_FieryCoral.png" width="35"></a></div>
+        <div class="col m3 s3"><a href="https://www.linkedin.com/in/smaranjitghose/" target="_blank"><div class="linkedin"></div></a></div>
+        <div class="col m3 s3"><a href="https://www.patreon.com/smaranjitghose/" target="_blank"><img src="{{url_for('static', filename = 'images/Patreon-Logo_FieryCoral.png')}}" width="35"></a></div>
         </div>
         <div class="col s12 m4 offset-m2 image center">
-          <img src="assets/images/anush_bhatia.png" alt="my photo" class="responsive-img circle z-depth-4" width="200px"/>
+          <img src="{{url_for('static', filename = 'images/anush_bhatia.png')}}" alt="Anush Bhatia Picture" class="responsive-img circle z-depth-4" width="200px"/>
           <h4>Anush Bhatia</h4>
-          <h6 class= "grey-text">Designer</h6>
+          <h6 class= "grey-text">Full Stack Developer</h6>
           <div class="col m3 offset-m2 s3 offset-s2"><a href="https://github.com/anushbhatia"><div class="bodymovinanim"></div></a></div>
           <div class="col m3 s3 "><a href="https://www.linkedin.com/in/anushbhatia/"><div class="linkedin"></div></a></div>
-          <div class="col m3 s3"><a href="https://www.patreon.com/anushbhatia/"><img src="assets/images/Patreon-Logo_FieryCoral.png" width="35"></a></div>
+          <div class="col m3 s3"><a href="https://www.patreon.com/anushbhatia/"><img src="{{url_for('static', filename ='images/Patreon-Logo_FieryCoral.png')}}" width="35"></a></div>
           </div>
         </div>
         </div>
         <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="anushbhatia" data-description="Support me on Buy me a coffee!"  data-color="#FF813F" data-position="right" data-x_margin="18" data-y_margin="18"></script>
-      <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-      <script type="text/javascript" src="assets/js/materialize.min.js"></script>
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js'></script><script  src="assets/js/script.js"></script>
+      <script type="text/javascript" src="{{url_for('static', filename ='js/jquery.min.js')}}"></script>
+      <script type="text/javascript" src="{{url_for('static', filename ='/js/materialize.min.js')}}"></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js'></script><script  src="{{url_for('static', filename = 'js/script.js')}}"></script>
       <script>
         $(document).ready(function(){
 $('.sidenav').sidenav();
@@ -180,3 +145,5 @@ $(document).ready(function(){
    </script>
     </body>
   </html>
+
+  {% endblock %}

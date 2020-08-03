@@ -1,0 +1,13 @@
+{
+"params":
+{
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/auto_vaidya",
+    "prod_uri": "mysql://root:@localhost/auto_vaidya",
+    "smaran_github" : "https://www.github.com/smaranjitghose",
+    "anush_github" : "https://www.github.com/anushbhatia",
+    "smaran_linkedin" : "https://www.linkedin.com/in/smaranjitghose",
+    "anush_linkedin" : "https://www.linkedin.com/in/anushbhatia"
+}
+
+}
