@@ -30,6 +30,7 @@ app = Flask(__name__) # Create our app
 
 
 @app.route('/', methods = ['GET']) # Default end point
+@app.route('/home', methods = ['GET']) # Default end point
 def home():
     try: # Try catch block helps us to debug any server side error
         return render_template('index.html')
