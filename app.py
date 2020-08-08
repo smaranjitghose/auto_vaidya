@@ -19,7 +19,7 @@ import json  # To open JSON files
 
 
 app = Flask(__name__)  # Create our app
-app.secret_key ="secret"
+app.secret_key = "secret"
 # if local_server:
 #     app.config['SQLALCHEMY_DATABASE_URI'] = params['local_uri'] # username:password@localhose/database_name
 # else:
