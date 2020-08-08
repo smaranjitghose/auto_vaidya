@@ -11,9 +11,10 @@
         media="screen,projection" />
 
     <!--Let browser know website is optimized for mobile-->
-
+  
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{url_for('static', filename ='css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename ='css/style_form.css')}}">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="/contact" target="_blank">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -37,5 +38,14 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
+    <!--Flash messages-->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {{ messages[0][0] }}
+            {{ messages[0][1] }}
+        {% endif %}
+    {% endwith %}
 {% block body %} {% endblock %}
+
+
 
