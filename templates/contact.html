@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div id="contact" class="profile container"><h2>Get In Touch With Our Mentors</h2> <br>
+    <div class="row center">
+      <div class="col s12 m4 offset-m1 image">
+        <img src="{{url_for('static', filename = 'images/smaranjitghose1.png')}}" alt="Smaranjit Ghose picture" class="responsive-img circle z-depth-4" width="200px"/>
+        <h4>Smaranjit Ghose</h4>
+        <h6 class= "grey-text">Machine Learning Developer</h6>
+        <div class="col m3 offset-m1 s3 offset-s2"><a href="https://github.com/smaranjitghose"><div class="bodymovinanim"></div></a></div>
+        <div class="col m3 s3"><a href="https://www.linkedin.com/in/smaranjitghose/" target="_blank"><div class="linkedin"></div></a></div>
+        <div class="col m3 s3"><a href="https://www.patreon.com/smaranjitghose/" target="_blank"><img src="{{url_for('static', filename = 'images/Patreon-Logo_FieryCoral.png')}}" width="35"></a></div>
+        </div>
+        <div class="col s12 m4 offset-m2 image center">
+          <img src="{{url_for('static', filename = 'images/anush_bhatia.png')}}" alt="Anush Bhatia Picture" class="responsive-img circle z-depth-4" width="200px"/>
+          <h4>Anush Bhatia</h4>
+          <h6 class= "grey-text">Full Stack Developer</h6>
+          <div class="col m3 offset-m2 s3 offset-s2"><a href="https://github.com/anushbhatia"><div class="bodymovinanim"></div></a></div>
+          <div class="col m3 s3 "><a href="https://www.linkedin.com/in/anushbhatia/"><div class="linkedin"></div></a></div>
+          <div class="col m3 s3"><a href="https://www.patreon.com/anushbhatia/"><img src="{{url_for('static', filename ='images/Patreon-Logo_FieryCoral.png')}}" width="35"></a></div>
+          </div>
+        </div>
+        </div>
+
+
+<div class="contact-section">
+	
+	<h2>Have Questions? We have answers.</h2>
+	<div class="border"></div>
+
+	<form class="contact-form" action="/contact" method="post" novalidate>
+		<input type="text" class="contact-form-text" placeholder="Your Name" id="name" name="name">
+		<input type="Email" class="contact-form-text" placeholder="Your Email" id="email" name="email">
+		<input type="text" class="contact-form-text" placeholder="Your phone" id="phone" name="phone" >
+		<textarea class="contact-form-text" placeholder="Your Message here..." id="message" name="message"></textarea>
+
+		<input type="submit" class="contact-form-btn" value="Send">
+
+	</form>
+</div>
+{% endblock %}
