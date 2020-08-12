@@ -41,4 +41,12 @@ while (i--) {
 	iconMenu2[i].addEventListener('mouseleave', (e) => {
 		animationMenu2.stop();
 	});
+	//moved from html code.
+    $(document).ready(function(){
+		$('.sidenav').sidenav();
+	});
+	$(document).ready(function(){
+    	$('.fixed-action-btn').floatingActionButton();
+  	});
+	
 }
