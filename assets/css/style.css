@@ -162,17 +162,15 @@ p {
 	}
 }
 .card{
-	height: 335px;
-	border-radius: 20% 0 20% 0;
+	height: 320px;
+	max-width: 280px;
 	box-shadow: 5px 5px 20px 1px #323232;
-	margin:1rem;
 }
 .card-image{
-	height: 220px;
-	border-radius: 20% 0 0 0;
+	height: 200px;
 }
 .card-content{
-	height: 115px;
+	height: 120px;
 	margin: auto;
 	display: flex;
 	justify-content: center;
@@ -182,6 +180,9 @@ p {
 	width: 1200px;
 }
 .activator{
-	height: 220px;
+	height: 200px;
 }
-
+#cards{
+	display: flex;
+	justify-content: space-around;
+}
