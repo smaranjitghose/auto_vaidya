@@ -161,3 +161,27 @@ p {
 		width: 60%;
 	}
 }
+.card{
+	height: 335px;
+	border-radius: 20% 0 20% 0;
+	box-shadow: 5px 5px 20px 1px #323232;
+	margin:1rem;
+}
+.card-image{
+	height: 220px;
+	border-radius: 20% 0 0 0;
+}
+.card-content{
+	height: 115px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	width: 1200px;
+}
+.activator{
+	height: 220px;
+}
+
