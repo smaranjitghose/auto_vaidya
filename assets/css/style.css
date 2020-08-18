@@ -163,8 +163,8 @@ p {
 }
 .card{
 	height: 320px;
-	max-width: 280px;
-	box-shadow: 5px 5px 20px 1px #323232;
+	box-shadow: 2px 2px 1px 1px #323232;
+	width: 500px;
 }
 .card-image{
 	height: 200px;
