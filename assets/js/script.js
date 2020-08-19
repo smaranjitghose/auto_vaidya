@@ -1,9 +1,8 @@
 //Play an animation back on second click
-var preloader = document.getElementById("loading");
-function myFunction(){
-
-	preloader.style.display = 'none';
-}
+window.addEventListener("load", function(){
+	const loader = document.querySelector(".loader");
+	loader.className += " hidden";
+});
 
 
 
