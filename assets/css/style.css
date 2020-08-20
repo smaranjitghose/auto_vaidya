@@ -1,13 +1,44 @@
 body {
-	font-family: 'Inter', sans-serif;
+	font-family: "Inter", sans-serif;
 }
 .start-header-row {
 	min-height: 368px;
-	background: url("../../../Content/images/desk_illustration.html") no-repeat 328px 0;
+	background: url("../../../Content/images/desk_illustration.html") no-repeat
+		328px 0;
 	background-size: auto 100%;
 	max-width: 1592px;
 	margin: 0 auto;
 }
+
+.loader {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loader > img {
+	width: 100px;
+}
+
+.loader.hidden {
+	animation: fadeOut 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+	100% {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
 @media only screen and (max-width: 992px) {
 	.start-header-row {
 		background: none;
@@ -161,28 +192,28 @@ p {
 		width: 60%;
 	}
 }
-.card{
+
+.card {
 	height: 320px;
-	box-shadow: 2px 2px 1px 1px #323232;
 	width: 500px;
 }
-.card-image{
+.card-image {
 	height: 200px;
 }
-.card-content{
+.card-content {
 	height: 120px;
 	margin: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.container{
+.container {
 	width: 1200px;
 }
-.activator{
+.activator {
 	height: 200px;
 }
-#cards{
+#cards {
 	display: flex;
 	justify-content: space-around;
 }
