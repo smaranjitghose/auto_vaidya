@@ -1,15 +1,16 @@
 body {
-	font-family: 'Inter', sans-serif;
+	font-family: "Inter", sans-serif;
 }
 .start-header-row {
 	min-height: 368px;
-	background: url("../../../Content/images/desk_illustration.html") no-repeat 328px 0;
+	background: url("../../../Content/images/desk_illustration.html") no-repeat
+		328px 0;
 	background-size: auto 100%;
 	max-width: 1592px;
 	margin: 0 auto;
 }
 
-.loader{
+.loader {
 	position: fixed;
 	z-index: 999;
 	top: 0;
@@ -24,22 +25,19 @@ body {
 
 .loader > img {
 	width: 100px;
-
 }
 
-.loader.hidden{
+.loader.hidden {
 	animation: fadeOut 1s;
 	animation-fill-mode: forwards;
-
 }
 
-@keyframes fadeOut{
+@keyframes fadeOut {
 	100% {
 		opacity: 0;
 		visibility: hidden;
 	}
 }
-
 
 @media only screen and (max-width: 992px) {
 	.start-header-row {
@@ -192,6 +190,48 @@ p {
 @media only screen and (max-width: 800px) {
 	.linkedin {
 		width: 60%;
+	}
+}
+
+.card {
+	height: 320px;
+}
+.card-image {
+	height: 200px;
+}
+.card-content {
+	height: 120px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.activator {
+	height: 200px;
+}
+#cards {
+	display: flex;
+	justify-content: space-around;
+}
+
+@media only screen and (max-width: 529px) {
+	.card {
+		height: 320px;
+		width: 400px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.card {
+		height: 320px;
+		width: 280px;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.card {
+		height: 320px;
+		width: 240px;
 	}
 }
 
