@@ -207,13 +207,17 @@ p {
 	justify-content: center;
 	align-items: center;
 }
-.container {
-	width: 1200px;
-}
 .activator {
 	height: 200px;
 }
 #cards {
 	display: flex;
 	justify-content: space-around;
+}
+
+@media only screen and (max-width: 529px) {
+	.card {
+		height: 320px;
+		width: 420px;
+	}
 }
