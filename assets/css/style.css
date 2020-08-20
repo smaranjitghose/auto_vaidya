@@ -231,7 +231,7 @@ p {
 @media only screen and (max-width: 300px) {
 	.card {
 		height: 320px;
-		width: 200px;
+		width: 240px;
 	}
 }
 
