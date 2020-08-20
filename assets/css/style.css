@@ -175,17 +175,16 @@ body, html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-top: -43px;
+	margin-top: -45px;
 }
 .parallax2 {
 	background: url("../images/parallax_pic2.jpeg");
-	min-height: 60%;
+	min-height: 30%;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-top: -71px;
-	margin-bottom: -20px;
 }
 
 /* prallax effect ends*/
