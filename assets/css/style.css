@@ -195,7 +195,6 @@ p {
 
 .card {
 	height: 320px;
-	width: 500px;
 }
 .card-image {
 	height: 200px;
@@ -221,3 +220,18 @@ p {
 		width: 400px;
 	}
 }
+
+@media only screen and (max-width: 350px) {
+	.card {
+		height: 320px;
+		width: 280px;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.card {
+		height: 320px;
+		width: 200px;
+	}
+}
+
