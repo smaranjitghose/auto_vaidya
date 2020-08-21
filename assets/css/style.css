@@ -235,3 +235,29 @@ p {
 	}
 }
 
+
+/* prallax effect starts*/
+body, html {
+	height: 100%;
+	margin:0;
+}
+.parallax1 {
+	background: url("../images/parallax_pic1.jpeg");
+	min-height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -45px;
+}
+.parallax2 {
+	background: url("../images/parallax_pic2.jpeg");
+	min-height: 60%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -71px;
+	margin-bottom: -20px;
+}
+/* prallax effect ends*/

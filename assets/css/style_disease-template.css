@@ -1,0 +1,20 @@
+.navbar{
+    margin: 0 -11vh;
+}
+
+/* parallax effect starts  */
+body, html {
+	height: 100%;
+	margin:0;
+}
+.parallax {
+	background: url("../images/parallax_pic1.jpeg"); /*put your parallax image here */
+	min-height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+	
+}
+/* prallax effect ends*/
