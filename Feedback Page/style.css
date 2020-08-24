@@ -1,0 +1,56 @@
+body{
+	background-color: #9b93f5;
+	font-family:sans-serif;
+    
+}
+.image{
+    position:absolute;
+    width:100%;  
+    background:green;
+    background-image:url('heart.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+
+
+.radio-inline{
+	margin: 0px 40px 20px 0px;
+	cursor: pointer;
+}
+
+label{
+	color: #000;
+    font-size: 17px;
+}
+
+#text{
+	height: 45px;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-size: 17px;
+	border: none;
+	width: 200px;
+	color: #000;
+}
+
+#message{
+	outline: none;
+	border: none;
+	padding: 10px 0px 0px 15px;
+	font-size: 16px;
+	color:#000;
+	border-radius: 5px;
+	width: 100%
+}
+
+.form-box{
+    width: 380;
+    height: 1200px;
+    position:relative;
+    background: rgba(0, 0, 0, 0.18);
+    margin-left: 420px;
+    margin-right: 420px;
+    
+}
+
