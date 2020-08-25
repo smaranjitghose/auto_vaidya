@@ -1,4 +1,10 @@
 //Play an animation back on second click
+window.addEventListener("load", function(){
+	const loader = document.querySelector(".loader");
+	loader.className += " hidden";
+});
+
+
 
 let iconMenu = document.querySelectorAll('.bodymovinanim');
 var i = 2;
@@ -50,3 +56,4 @@ while (i--) {
   	});
 	
 }
+

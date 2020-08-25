@@ -15,6 +15,10 @@
     </head>
 
     <body>
+    	<div class="loader">
+    		<img src="assets/images/splash.gif" />
+    	</div>
+    	
          <!--Nav Bar-->
         <nav class="black">
             <div class="nav-wrapper container">
@@ -67,7 +71,7 @@
     <!--Projects Section -->
    <div id="projects" class="container"><h3 >Current Undertakings:</h3>
     <div class="row">   
-    <div class="col m4">
+    <div class="col m4" id="cards">
             <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="https://media.giphy.com/media/3o7TKtE3yRuE6rAeFa/giphy.gif">
@@ -77,7 +81,7 @@
     </div>
   </div>
        </div>
-       <div class="col m4">
+       <div class="col m4" id="cards">
         <div class="card">
 <div class="card-image waves-effect waves-block waves-light">
   <img class="activator" src="https://media.giphy.com/media/qVtN6zqMSW59K/giphy.gif">
@@ -87,7 +91,7 @@
 </div>
 </div>
    </div>
-   <div class="col m4">
+   <div class="col m4" id="cards">
     <div class="card">
 <div class="card-image waves-effect waves-block waves-light">
 <img class="activator" src="https://media.giphy.com/media/MCAFTO4btHOaiNRO1k/giphy.gif">
@@ -99,7 +103,7 @@
 </div>
 </div>
 <div class="row"> 
-  <div class="col m4">
+  <div class="col m4" id="cards">
     <div class="card">
 <div class="card-image waves-effect waves-block waves-light">
 <img class="activator" src="https://media.giphy.com/media/l41lJ8ywG1ncm9FXW/giphy.gif">
@@ -109,7 +113,7 @@
 </div>
 </div>
 </div>
-<div class="col m4">
+<div class="col m4" id="cards">
   <div class="card">
 <div class="card-image waves-effect waves-block waves-light">
 <img class="activator" src="https://media.giphy.com/media/B9SXJmOabvcwo/giphy.gif">
@@ -119,7 +123,7 @@
 </div>
 </div>
 </div>
-<div class="col m4">
+<div class="col m4" id="cards">
   <div class="card">
 <div class="card-image waves-effect waves-block waves-light">
 <img class="activator" src="https://media.giphy.com/media/l46CfQrnjtP759Bcs/giphy.gif">
@@ -131,9 +135,8 @@
 </div>
 </div>
 
-<center>
-<div class="row center">   
-  <div class="col m4 center">
+<div class="row">   
+  <div class="col m4" id="cards">
   <div class="card">
 <div class="card-image waves-effect waves-block waves-light">
 <img class="activator" src="https://media.giphy.com/media/YNDPsl5SAy0FVMY6W0/giphy.gif">
@@ -143,8 +146,9 @@
 </div>
 </div>
 </div>
-  </div>
-</center>
+</div>
+
+
 </div>
   <div id="contact" class="profile container"><h3 class="">Contact</h3> 
     <div class="row center">
@@ -172,6 +176,33 @@
       <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js'></script><script  src="assets/js/script.js"></script>
 
 <!--Script part moved to separate script.js file -->
-	
+
 </body>
+
+<!-- Footer-->
+ <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">AUTO VAIDYA</h5>
+                <p class="grey-text text-lighten-4">AN OPEN SOURCE SOLUTION FOR CREATING END-END WEB APP FOR EMPLOYING THE POWER OF DEEP LEARNING IN VARIOUS CLINICAL SCENARIOS LIKE IMPLANT DETECTION, PNEUMONIA DETECTION, BRAIN MRI SEGMENTATION ETC.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Other Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/smaranjitghose/auto_vaidya">Auto vaidya</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+ 
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Copyright Auto Vaidya
+            </div>
+          </div>
+        </footer>
+
 </html>
