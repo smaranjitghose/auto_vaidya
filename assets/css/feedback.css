@@ -1,13 +1,13 @@
 body{
 	background-color: #9b93f5;
-	font-family:sans-serif;
+	font-family:'Poppins';
     
 }
 .image{
     position:absolute;
     width:100%;  
-    background:green;
-    background-image:url('heart.jpg');
+    background:#bc9d1a;
+    background-image:url("../images/heart.jpg");
     background-size:cover;
     position:relative;
 }
