@@ -1,6 +1,9 @@
+<!--Feedback Page-->
+
 <!DOCTYPE html>
 <html lang="en">
 
+<!--Starting with the Head part-->
 <head>
  	<title>Feedback Form</title>
  	<meta charset="utf-8">
@@ -8,18 +11,22 @@
  	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">		
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="assets/css/feedback.css">
-
+	<link rel="stylesheet" href="assets/css/feedback.css"> <!--Linking our feedback.css sheet-->
 </head>
 
+    
+<!--Starting with the body-->
+    
 <body>	  
-<div class='image'>
-<div class='form-box'>
-<div class="container">
+<div class='image'>     <!--Adding background image-->
+<div class='form-box'>  <!--Adding a frame to the form-->
+<div class="container"> <!--Opening a Container class for our contents-->
+    
+<!--Starting with our feedback form-->    
     <div class="row">
         <div class="col-md-2"></div>
             <div class="col-md-8">
-			 <h1 class="text-center mt-5 font-weight-bold">Feedback</h1>
+			 <h1 class="text-center mt-5 font-weight-bold">Feedback</h1> <!--Title of our form-->
 			 <hr class="bg-white">
 			 <h4 class="text-center">Your Feedback Is Precious!</h4><br>
             </div>
@@ -27,62 +34,63 @@
 <form>
     <div class="row">
         <div class="col-md-2"></div>
-            <label class="col-md-4">Full Name*<br>
-					<input type="text" id="text" required="" placeholder="John Doe"></label>
-					<label class="col-md-4">Email*<br>
+            <label class="col-md-4">Full Name*<br>                                                      <!--Taking Name as input-->
+					<input type="text" id="text" required="" placeholder="John Doe"></label>            
+					<label class="col-md-4">Email*<br>                                                  <!--Taking Email as input-->
 					<input type="text" id="text" required="" placeholder="johndoe123@gmail.com"></label>
     </div>
 
     <div class="row">
         <div class="col-md-2"></div>
-            <label class="col-md-4">Designation*<br>
+            <label class="col-md-4">Designation*<br>                                                    <!--Taking Designation as input-->
 					<input type="text" id="text" required="" placeholder="Doctor"></label>	
     </div><br>
     
     <div class="row">
         <div class="col-md-2"></div>
-				<label class="col-md-8">Did you find our methods appropriate to diagnose the problem you were interested in?*<br>
-				<label class="radio-inline"><input type="radio" name="yes/no3" value="bad">Yes</label>
+				<label class="col-md-8">Did you find our methods appropriate to diagnose the problem you were interested in?*<br><!--Asking Question-->
+				<label class="radio-inline"><input type="radio" name="yes/no3" value="bad">Yes</label>              <!--Taking answers as Yes or No-->
                 <label class="radio-inline"><input type="radio" name="yes/no3" value="bad">No</label></label>
     </div><br>
                         
     <div class="row">
         <div class="col-md-2"></div>
-				<label class="col-md-8">Do you think we are missing out on something?*<br>
-                <label class="radio-inline"><input type="radio" name="yes/no" value="bad">Yes</label>
-				<label class="radio-inline"><input type="radio" name="yes/no" value="bad">No</label>
+				<label class="col-md-8">Do you think we are missing out on something?*<br>                  <!--Asking Question-->
+                <label class="radio-inline"><input type="radio" name="yes/no" value="bad">Yes</label>       <!--Taking answers as Yes or No-->
+				<label class="radio-inline"><input type="radio" name="yes/no" value="bad">No</label>        <!--If Yes, write in message box-->
 					<textarea id="message"  placeholder="If yes, then please specify... " cols="48" rows="4"></textarea></label>
     </div><br>
         
     <div class="row">
-        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>                                                                            <!--Asking Question-->
 				<label class="col-md-8">What is your take on the importance of the problem we are solving? How much useful is our tool?*<br>
-				<textarea id="message" required="" placeholder="Write yor message here" cols="48" rows="4"></textarea></label>
+				<textarea id="message" required="" placeholder="Write yor message here" cols="48" rows="4"></textarea></label><!--Answer in message box-->
     </div><br>
         
     <div class="row">
         <div class="col-md-2"></div>
-            <label class="col-md-8">Would you like to work with us closely for some other problem?*<br>
-            <label class="radio-inline"><input type="radio" name="yes/no2" value="bad">Yes</label>
+            <label class="col-md-8">Would you like to work with us closely for some other problem?*<br>         <!--Asking Question-->
+            <label class="radio-inline"><input type="radio" name="yes/no2" value="bad">Yes</label>              <!--Taking answers as Yes or No-->
             <label class="radio-inline"><input type="radio" name="yes/no2" value="bad">No</label></label>
     </div><br>
     
     <div class="row">
         <div class="col-md-2"></div>
-            <label class="col-md-8">How do you rate your overall experience?*<br>
-            <label class="radio-inline"><input type="radio" name="experience" value="bad">Bad</label>
+            <label class="col-md-8">How do you rate your overall experience?*<br>                          <!--Asking Question-->
+            <label class="radio-inline"><input type="radio" name="experience" value="bad">Bad</label>      <!--Taking answers as Bad or Average or Good-->
             <label class="radio-inline"><input type="radio" name="experience" value="bad">Average</label>
             <label class="radio-inline"><input type="radio" name="experience" value="bad">Good</label></label>
     </div>
         
 
+<!--Submit Button to submit the details-->    
     <div class="row">
         <div class="col-md-2"></div>
             <button class="btn btn-primary" style="width: 20%; align-content: center; margin-left: 25%; background-color: #292e25; border-color: #66715d;">Submit</button>
     </div><br><br>
-</form>
-</div>			
-</div>
-</div>       
+</form> <!--End of our form-->
+</div>  <!--End of the class container-->		
+</div>  <!--End of the frame of class form box-->
+</div>  <!--End of image class-->     
 </body>
 </html>  
