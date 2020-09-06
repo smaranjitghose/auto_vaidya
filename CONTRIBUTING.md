@@ -1,52 +1,92 @@
-#Contributing
-
+<h1 align="center"><b>CONTRIBUTING</b></h1> 
+We want to make contributing to this project as easy and as transparent as possible, whether it's:
+-> Reporting a bug
+-> Submitting a fix
+-> Proposing new features
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other standard  method with the owners of this repository before making a change.
 
-## Pull Request process
+<h2 align="center"><b>Pull Request Process</b></h2> 
+**1.**  Fork [this](https://github.com/smaranjitghose/auto_vaidya.git) repository.
+**2.**  Clone the forked repository.
 
-1.Clone the repository 
-2.Install all the needed dependencies 
-3.Get an issue assigned to you by the developers
-4.Raise a PR with the issue number and  a description of changes done  
-5.Request the reviewers to merge the issue for you 
+```
+git clone --depth 1 https://github.com/<your_user_name>/auto_vaidya.git
+```
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5N0HJ9db7jSvcL4dsDscZQBzqQqqKVs0BnO1OVz26glLWKJRY&usqp=CAU" width="300">
+**3.** Navigate to the project directory.
 
-##Code of Conduct
+```
+cd auto_vaidya
+```
+**4.** Add a reference to the original repository.
 
-### Our Pledge
+```
+git remote add upstream https://github.com/smaranjitghose/auto_vaidya.git (url of the repository)
+```
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+**5.** See latest  changes to the repo using
 
-### Our Standards 
+```
+git remote -v
+```
 
-Examples of behavior that contributes to creating a positive environment
-include:
+**6.** Create a new branch.
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+```
+git checkout -b <your_branch_name>
+```
 
-Examples of unacceptable behavior by participants include:
+**7.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
- advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
- address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
- professional setting
+```
+git pull upstream master
+```
 
-### Our Responsibilities
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+**8.** Make changes in the source code after getting yourself assigned to the issue by the mentors/developers of the project.
 
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+<p align="center"><img width=35% src="https://media2.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=ecf05e47pzi2rpig0vc8pjusra8hiai1b91zgiywvbubu9vu&rid=giphy.gif"></p>
 
-### Scope
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
+**9.** Add and then commit your changes.
 
-### Enforcement
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at [INSERT EMAIL ADDRESS]. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+```
+git add . or git add --all
+```
+```
+git commit -m "<your_commit_message>"
+```
 
-Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
+
+**10.** Push your local branch to the remote repository.
+
+```
+git push -u origin <your_branch_name>
+```
+
+**11.** Create a Pull Request!
+
+**12.** Finally, go to your repository in browser and click on `compare and pull requests`.
+
+**13.** Then add an appropriate title and description to your pull request that explains your changes and efforts done.
+
+   <img src="https://user-images.githubusercontent.com/41269164/70219707-47194780-176b-11ea-96c2-d0c401ddb1e0.png" width=600>
+
+**14.** Click on `Create Pull Request`.
+
+<h2 align="center"><b>Congrats for your Contribution!!! </b></h2>
+   <img src="https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png" width=600>
+
+
+<h2 align="center"><b>Grading for  Our Contributions in Hakincodes 2020 </b></h2>
+
+<p align="center"><img width=35% src="https://media1.giphy.com/media/xUOrwiqZxXUiJewDrq/giphy.gif?cid=ecf05e47uotypc3bvd4fbf45kfsu6kcb2nl45kpwmjt7dj3q&rid=giphy.gif"></p>
+
+You will get the following points on the basis of difficulty of the project. 
+
+| Labels   | Points |        
+| -------- |:------:|
+|Readme and updation | 3 |
+| Beginner | 5 |
+| Easy     | 10 |
+| Medium   | 15 |
+| Hard     | 20 |
+You can check your total score [here](https://hakincodes.tech/Leaderboard.html).
