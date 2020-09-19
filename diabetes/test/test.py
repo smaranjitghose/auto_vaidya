@@ -69,7 +69,7 @@ print(X.shape)
 ans=(model.predict(X.T))
 
 if(ans==0):
-    print("Diabetic :(")
-else:
     print("Healthy :)")
+else:
+    print("Diabetic :(")
 
