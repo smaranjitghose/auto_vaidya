@@ -5,7 +5,7 @@ import time
 
 
 st.beta_set_page_config(
-page_title="Title of the webpage",
+page_title="AutoVaidya",
 layout="centered",
 initial_sidebar_state="collapsed",
 )
@@ -19,11 +19,9 @@ def main():
 
     if choice == "Home":
         # Let's set the title of our awesome web app
-        st.title('Title of your Awesome App')
-        # Now setting up a header text
-        st.subheader("By Your Cool Dev Name")
+        st.title('Autovaidya')
         # adding random text
-        st.text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
+        st.text("It is health that is real wealth and not pieces of gold and silver.")
         
     elif choice == "Project1":
         # Let's set the title of our Contact Page
