@@ -29,4 +29,5 @@ An open source solution for creating end-end web app for employing the power of 
 - For the second PR, you are expected to do the above changes and provide screenshots/a small clip of the working model of the app after integrating your model from the previous PR
 
 Entire App on Heroku: https://auto-vaidya.herokuapp.com/
+Frontend on  Netlify: autovaidya.netlify.app
 
