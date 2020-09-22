@@ -5,7 +5,7 @@ import numpy as np
 import time
 
 st.beta_set_page_config(
-page_title="Title of the webpage",
+page_title="Auto Vaidya",
 layout="centered",
 initial_sidebar_state="collapsed",
 )
@@ -20,9 +20,9 @@ def main():
 
     if choice == "Home":
         # Let's set the title of our awesome web app
-        st.title('Title of your Awesome App')
+        st.title('Auto Vaidya')
         # Now setting up a header text
-        st.subheader("By Your Cool Dev Name")
+        st.subheader("Automating Healthcare one problem at a time")
 
         def your_image_classifier(image):
             '''
