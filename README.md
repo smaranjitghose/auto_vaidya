@@ -28,8 +28,5 @@ An open source solution for creating end-end web app for employing the power of 
 - For the streamlit app, it would be a good practice if you define the function for classification/prediction/regression inside a separate python file say ```your_problem_name.py``` and import it inside ```app.py``` ( Believe me this would save a lot of time otherwise wasted in debugging)
 - For the second PR, you are expected to do the above changes and provide screenshots/a small clip of the working model of the app after integrating your model from the previous PR
 
+Entire App on Heroku: https://auto-vaidya.herokuapp.com/
 
-<h2 align="center"><b>Open Source Programs we have been a part of:</b></h2>
-
-
-[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/images/0)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/links/0)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/images/1)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/links/1)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/images/2)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/links/2)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/images/3)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/links/3)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/images/4)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/links/4)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/images/5)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/links/5)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/images/6)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/links/6)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/images/7)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/auto_vaidya/links/7)
