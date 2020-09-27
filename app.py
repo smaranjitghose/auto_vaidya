@@ -3,6 +3,7 @@ import tensorflow.keras
 from PIL import Image, ImageOps
 import numpy as np
 import time
+from skin_cancer_mnist import skin_cancer_classifier
 
 st.beta_set_page_config(
 page_title="Auto Vaidya",
@@ -15,9 +16,34 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 
 
 def main():
-    menu = ['Home', 'Contact']
+    menu = ['Home','Skin Cancer Classifier','Contact']
     choice = st.sidebar.selectbox("Menu", menu)
 
+    if choice == "Skin Cancer Classifier":
+        st.title('Auto Vaidya')
+        # Now setting up a header text
+        st.subheader("Skin Cancer Prediction")
+        uploaded_file = st.file_uploader("Choose an image...", type=["jpg","png","jpeg"])
+        # When the user clicks the predict button
+        if st.button("Predict"):
+        # If the user uploads an image
+            if uploaded_file is not None:
+                # Opening our image
+                image = Image.open(uploaded_file)
+                # Let's see what we got
+                st.image(image,use_column_width=True)
+                st.write("")
+                try:
+                    with st.spinner("The magic of our AI has started...."):
+                        label =skin_cancer_classifier(image)
+                        time.sleep(8)
+                    st.success("We predict this image to be: "+label)
+                    rating = st.slider("Do you mind rating our service?",1,10)
+                except:
+                    st.error("We apologize something went wrong 🙇🏽‍♂️")
+            else:
+                st.error("Can you please upload an image 🙇🏽‍♂️")
+        
     if choice == "Home":
         # Let's set the title of our awesome web app
         st.title('Auto Vaidya')
@@ -31,7 +57,7 @@ def main():
             # Disable scientific notation for clarity
             np.set_printoptions(suppress=True)
             # Load the model
-            model = tensorflow.keras.models.load_model('model/name_of_the_keras_model.h5')
+            model = tensorflow.keras.models.load_model('model/file.h5')
             # Determined by the first position in the shape tuple, in this case 1.
             data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
             # Resizing the image to be at least 224x224 and then cropping from the center
@@ -43,7 +69,7 @@ def main():
             normalized_image_array = (image_array.astype(np.float32) / 127.0) - 1
             # Load the image into the array
             data[0] = normalized_image_array
-            labels = {0: "Class 0", 1: "Class 1", 2: "Class 2",3: "Class 3", 4: "Class 4", 5: "Class 5"}
+            labels = {0: "class-1", 1: "class-2", 2: "class-3 ",3: "class-4", 4: "class-5"}
             # Run the inference
             predictions = model.predict(data).tolist()
             best_outcome = predictions[0].index(max(predictions[0]))
