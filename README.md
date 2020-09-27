@@ -27,6 +27,10 @@ An open source solution for creating end-end web app for employing the power of 
 - Once your PR, gets approved uptil this, proceed with a follow up pr to integrate it inside the streamlit app. Refer [this](https://github.com/smaranjitghose/img_ai_app_boilerplate) if you are unaware of how to use streamlit and host it
 - For the streamlit app, it would be a good practice if you define the function for classification/prediction/regression inside a separate python file say ```your_problem_name.py``` and import it inside ```app.py``` ( Believe me this would save a lot of time otherwise wasted in debugging)
 - For the second PR, you are expected to do the above changes and provide screenshots/a small clip of the working model of the app after integrating your model from the previous PR
+- For the second PR, it should be one the test branch only, later the project maintainers will merge it with the master branch for a stable release
+- For PRs, related to frontend please give it to the ```frontend``` branch
+- Once accepted, give a follow up PR to the ```test``` branch to render your html,css files for a page using streamlit
+- As stated above you are expected to give screenshots, descriptions and other details for the PR
 
 Entire App on Heroku: https://auto-vaidya.herokuapp.com/
 Frontend on  Netlify: autovaidya.netlify.app
