@@ -1,18 +1,20 @@
-<h1 align="center"><b>CONTRIBUTING</b></h1> 
+## CONTRIBUTING
 We want to make contributing to this project as easy and as transparent as possible, whether it's:
--> Reporting a bug
--> Submitting a fix
--> Proposing new features
+- Reporting a bug
+- Submitting a fix
+- Proposing new features
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other standard  method with the owners of this repository before making a change.
 
-<h2 align="center"><b>Pull Request Process</b></h2> 
+## Pull Request Process
 **1.**  Fork [this](https://github.com/smaranjitghose/auto_vaidya.git) repository.
+
 **2.**  Clone the forked repository.
 
 ```
 git clone --depth 1 https://github.com/<your_user_name>/auto_vaidya.git
 ```
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5N0HJ9db7jSvcL4dsDscZQBzqQqqKVs0BnO1OVz26glLWKJRY&usqp=CAU" width="300">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5N0HJ9db7jSvcL4dsDscZQBzqQqqKVs0BnO1OVz26glLWKJRY&usqp=CAU" width="300">
+   
 **3.** Navigate to the project directory.
 
 ```
@@ -72,21 +74,6 @@ git push -u origin <your_branch_name>
 
 **14.** Click on `Create Pull Request`.
 
-<h2 align="center"><b>Congrats for your Contribution!!! </b></h2>
-   <img src="https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png" width=600>
-
-
-<h2 align="center"><b>Grading for  Our Contributions in Hakincodes 2020 </b></h2>
+<img src="https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png" width=600>
 
 <p align="center"><img width=35% src="https://media1.giphy.com/media/xUOrwiqZxXUiJewDrq/giphy.gif?cid=ecf05e47uotypc3bvd4fbf45kfsu6kcb2nl45kpwmjt7dj3q&rid=giphy.gif"></p>
-
-You will get the following points on the basis of difficulty of the project. 
-
-| Labels   | Points |        
-| -------- |:------:|
-|Readme and updation | 3 |
-| Beginner | 5 |
-| Easy     | 10 |
-| Medium   | 15 |
-| Hard     | 20 |
-You can check your total score [here](https://hakincodes.tech/Leaderboard.html).
