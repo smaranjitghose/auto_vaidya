@@ -1,5 +1,5 @@
 streamlit
-tensorflow-cpu==2.5.2
+tensorflow-cpu==2.5.3
 Pillow==9.0.0
 numpy==1.21.0
 firebase
