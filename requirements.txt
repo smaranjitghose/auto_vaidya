@@ -1,7 +1,7 @@
 streamlit
 tensorflow-cpu==2.5.3
 Pillow==9.0.1
-numpy==1.21.0
+numpy==1.22.0
 firebase
 # For Handling firebase and pyrebase dependency issues
 sseclient==0.0.22
