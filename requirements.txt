@@ -1,6 +1,6 @@
 streamlit
 tensorflow-cpu==2.7.2
-Pillow==9.0.1
+Pillow==9.3.0
 numpy==1.22.0
 firebase
 # For Handling firebase and pyrebase dependency issues
